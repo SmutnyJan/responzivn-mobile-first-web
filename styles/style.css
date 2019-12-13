@@ -39,6 +39,8 @@ h2 {
     margin: -10px;
     margin-bottom: 0px;
     margin-top: 0px;
+    margin-right: 20px;
+    grid-area: navbar;
 }
 
 .main-menu h1 {
@@ -80,4 +82,16 @@ aside.articles article {
     margin: -10px;
     margin-top: 0;
     margin-right: 0;
+}
+.other-articles article {
+    border: black solid 5px;
+}
+.main-article {
+    grid-area: main-article;
+}
+.gallery {
+    grid-area: gallery;
+}
+.other-articles {
+    grid-area: other-articles;
 }

@@ -1,0 +1,21 @@
+@media screen and (min-width: 560px) {
+    main {
+        display: grid;
+        grid-template-columns: 15% 85%;
+        grid-template-areas: 
+        "navbar main-article"
+        ". gallery"
+        ". other-articles";
+    }
+}
+@media screen and (min-width: 960px) {
+    main {
+        display: grid;
+        grid-template-columns: 15% 60% 25%;
+        grid-template-areas: 
+        "navbar main-article gallery"
+        ". main-article gallery"
+        ". other-articles other-articles";
+    }
+}
+
