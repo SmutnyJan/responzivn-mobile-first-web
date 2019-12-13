@@ -1,0 +1,83 @@
+body {
+    padding: 10px;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.page>header,
+.page>footer {
+    background-color: brown;
+    color: white;
+    margin: -10px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.page>footer {
+    margin-top: 10px;
+}
+
+.gallery figure {
+    border: 1px solid silver;
+    margin: 2px;
+    padding: 5px;
+    display: block;
+}
+
+.gallery img {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.main-menu {
+    margin: -10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.main-menu h1 {
+    display: none;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.main-menu ul li a {
+    display: block;
+    margin: 0;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.main-menu ul li a:hover {
+    background-color: yellow;
+}
+
+aside.articles article {
+    border: 1px solid silver;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.mainwrapper {
+    padding: 10px;
+    margin: -10px;
+    margin-top: 0;
+    margin-right: 0;
+}
