@@ -89,7 +89,7 @@ aside.articles article {
 .main-article {
     grid-area: main-article;
 }
-.gallery {
+.gallery-block {
     grid-area: gallery;
 }
 .other-articles {
