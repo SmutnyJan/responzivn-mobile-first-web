@@ -16,7 +16,7 @@
     }
 }
 @media screen and (min-width: 560px) {
-    .grid {
+    main {
         display: grid;
         grid-template-columns: 20% 80%;
         grid-template-areas: 
@@ -29,8 +29,8 @@
         flex-wrap: wrap;
     }
 }
-    ) {
-    .grid {
+@media screen and (min-width: 960px) {
+    main {
         display: grid;
         grid-template-columns: 20% 55% 25%;
         grid-template-areas: 
@@ -38,6 +38,7 @@
         ". main-article gallery"
         ". other-articles other-articles";
     }
+    
     .gallery {
         display: flex;
         flex-wrap: wrap;

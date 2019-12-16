@@ -85,7 +85,8 @@ aside.articles article {
     margin-right: 0;
 }
 .other-articles article {
-    border: black solid 5px;
+    border: black solid 2px;
+    margin-bottom: 2px;
 }
 .main-article {
     grid-area: main-article;
@@ -95,4 +96,7 @@ aside.articles article {
 }
 .other-articles {
     grid-area: other-articles;
+}
+main {
+    margin: px;
 }
