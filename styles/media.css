@@ -7,6 +7,13 @@
     li {
         flex: 1;
     }
+    .main-menu {
+        margin: -10px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        display: block;
+        grid-area: navbar;
+    }
 }
 @media screen and (min-width: 560px) {
     .grid {
@@ -22,7 +29,7 @@
         flex-wrap: wrap;
     }
 }
-@media screen and (min-width: 960px) {
+    ) {
     .grid {
         display: grid;
         grid-template-columns: 20% 55% 25%;
