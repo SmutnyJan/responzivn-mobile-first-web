@@ -28,6 +28,10 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .page{
+        margin: 0 auto;
+    }
+
 }
 @media screen and (min-width: 960px) {
     main {
@@ -42,6 +46,12 @@
     .gallery {
         display: flex;
         flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .page {
+        max-width: 1200px;
+        align-content: center;
     }
 }
 
