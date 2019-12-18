@@ -49,7 +49,7 @@
     }
 }
 @media screen and (min-width: 1200px) {
-    .page > main{
+    .page{
         max-width: 1200px;
         margin: 0 auto;
     }
